@@ -1,0 +1,40 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #ff9f43;
+    --orange: #ff9f43;
+    --light-orange: #feca57;
+    --red: #ee5253;
+    --light-red: #ff6b6b --blue: #0abde3;
+    --light-blue: #48dbfb;
+    --green: #10ac84;
+    --light-green: #1dd1a1;
+    --purple: #341f97;
+    --light-purple: #5f27cd;
+    --cyan: #01a3a4;
+    --light-cyan: #00d2d3;
+    --pink: #f368e0;
+    --light-pink: #ff9ff3;
+    --white: #c8d6e5;
+    --light-gray: #8395a7;
+    --gray: #576574;
+    --black: #222f3e;
+    --light: var(--white);
+    --dark: var(--black);
+}
+
+
+/* Styles */
+
+body {
+    background-color: var(--dark);
+}
